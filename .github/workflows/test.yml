@@ -3,7 +3,7 @@ name: ML Pipeline CI
 on:
   push:
   #   branches: [ main, master  ]
-    branches: [ develop  ]
+    branches: [ main, master, develop  ]
   pull_request:
     branches: [ main, master, develop ]
 
